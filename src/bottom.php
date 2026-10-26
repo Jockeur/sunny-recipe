@@ -8,9 +8,8 @@
                 </div>
                 <div class="col d-flex flex-column align-items-start">
                     <h4>A propos</h4>
-                    <p><a href="contact.php">Nous contacter</a></p>
                     <p><a href="policy.php">Droit d'image</a></p>
-                    <p><a href="about.php">Notre équipe</a></p>
+                    <p><a href="contact.php">Notre équipe</a></p>
                 </div>
             </div>
         </footer>
