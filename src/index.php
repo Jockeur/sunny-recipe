@@ -1,18 +1,20 @@
 <?php include("top.php"); ?>
 
-<div class="Accueil">
-    <h1>Sunny recipe </h1>
-    <h3>Des idées gourmandes pour bien commencer la journée</h3>
-</div>
-<div class="BestSeller">
-    <h2>Nos best seller</h2>
-    
-</div>
-<div class="Categorie">
-    <h2>nos Categorie</h2>
+<main>
+    <section class="accueil">
+        <h1>Sunny Recipe</h1>
+        <p>Des idées gourmandes pour bien commencer la journée.</p>
+    </section>
 
-</div>
+    <section class="bestseller">
+        <h2>Nos meilleures recettes</h2>
+        <p>Pancakes, tartines et granola maison.</p>
+    </section>
 
+    <section class="categorie">
+        <h2>Nos catégories</h2>
+        <p>Sucré · Salé · Rapide · Boissons</p>
+    </section>
+</main>
 
-
-<?php include("bottom.php") ?>
+<?php include("bottom.php"); ?>

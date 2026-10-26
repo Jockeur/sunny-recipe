@@ -1,0 +1,31 @@
+.accueil {
+    padding: 60px 20px;
+    background: #fff7e8;
+    text-align: center;
+}
+
+.accueil h1 {
+    color: #263a32;
+    font-family: Georgia, serif;
+    font-size: 42px;
+}
+
+.accueil p {
+    color: #756d60;
+}
+
+.bestseller,
+.categorie {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.categorie {
+    background: #fff7e8;
+}
+
+.bestseller h2,
+.categorie h2 {
+    color: #263a32;
+    font-family: Georgia, serif;
+}
