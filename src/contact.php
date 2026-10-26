@@ -8,19 +8,19 @@
             <h2>Jawed Merkache</h2>
             <img src="https://avatars.githubusercontent.com/u/332931426" width="200px">
             <a href="https://github.com/kiqsiii"><img src="img/github.png" alt="github kiqsiii" width="50px">Github</a>
-            <a href="https://www.linkedin.com/in/jawed-merkache-9b5623439/"><img src="img/linkedin.webp" alt="linkedin kiqsiii" width="50px">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/jawed-merkache-9b5623439/"><img src="img/linkedin.svg" alt="linkedin kiqsiii" width="50px">LinkedIn</a>
         </div>
         <div class="col d-flex flex-column align-items-start">
             <h2>Jocelain Konan</h2>
             <img src="https://avatars.githubusercontent.com/u/74934764" alt="Jockeur" width="200px">
             <a href="https://github.com/Jockeur"><img src="img/github.png" alt="github Jockeur" width="50px">Github</a>
-            <a href="https://www.linkedin.com/in/jocelain-konan-1586b6422/"><img src="img/linkedin.webp" alt="linkedin Jockeur" width="50px">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/jocelain-konan-1586b6422/"><img src="img/linkedin.svg" alt="linkedin Jockeur" width="50px">LinkedIn</a>
         </div>
         <div class="col d-flex flex-column align-items-start">
             <h2>Berached Mohamed</h2>
             <img src="https://avatars.githubusercontent.com/u/113042463" alt="DZ3G" width="200px">
             <a href="https://github.com/DZ3G"><img src="img/github.png" alt="github DZ3G" width="50px">Github</a>
-            <a href="https://www.linkedin.com/in/berrached-mohammed-aa4a75364/"><img src="img/linkedin.webp" alt="linkedin DZ3G" width="50px">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/berrached-mohammed-aa4a75364/"><img src="img/linkedin.svg" alt="linkedin DZ3G" width="50px">LinkedIn</a>
         </div>
     </div>
 </div>

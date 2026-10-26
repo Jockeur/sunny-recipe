@@ -17,8 +17,8 @@
                     <a href="index.php"><img src="img/logo.svg" alt="logo" width="300px" /></a>
                 </div>
                 <div class="col d-flex flex-row align-items-center justify-content-end gap-3">
-                    <a class="top-nav-link" href="recipies.php">Recipies</a>
-                    <a class="top-nav-link" href="about.php">About</a>
+                    <a class="top-nav-link" href="recipies.php">Recettes</a>
+                    <a class="top-nav-link" href="about.php">À propos</a>
                 </div>
             </div>
             </div>
