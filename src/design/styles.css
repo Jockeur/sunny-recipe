@@ -69,7 +69,7 @@ body {
             rgb(244, 193, 98),
             rgba(244, 193, 98, 0)
         ),
-        url("../img/index-img.jpg") center / cover no-repeat;
+        url("../img/index-img.png") center / cover no-repeat;
 }
 
 .accueil-contenu {
