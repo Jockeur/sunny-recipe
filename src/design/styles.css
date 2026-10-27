@@ -88,4 +88,13 @@ body {
     .categorie {
         padding: 40px 6%;
     }
+<<<<<<< Updated upstream
 }
+=======
+}
+.categorie-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+>>>>>>> Stashed changes
