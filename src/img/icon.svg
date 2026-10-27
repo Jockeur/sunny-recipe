@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="244" height="244" viewBox="0 0 244 244" role="img" aria-labelledby="title desc">
+  <title id="title">Sunny Recipe — icône</title>
+  <desc id="desc">Soleil levant doré au-dessus d’une assiette blanche bordée de terracotta.</desc>
+  <defs>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFD66B"/>
+      <stop offset="1" stop-color="#F5A623"/>
+    </linearGradient>
+    <clipPath id="horizon"><path d="M45 146a77 77 0 0 1 154 0v8H45z"/></clipPath>
+  </defs>
+  <g transform="translate(18 18)">
+    <circle cx="122" cy="126" r="108" fill="#FFF7E8"/>
+    <g stroke="#F3A623" stroke-width="7" stroke-linecap="round">
+      <path d="M122 35v13M60 58l9 9M184 58l-9 9M39 111h14M191 111h14"/>
+    </g>
+    <circle cx="122" cy="126" r="57" fill="url(#sun)" clip-path="url(#horizon)"/>
+    <path d="M42 151h160" fill="none" stroke="#D66B35" stroke-width="8" stroke-linecap="round"/>
+    <path d="M52 164c8 34 34 53 70 53s62-19 70-53" fill="#fff" stroke="#D66B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M77 181h90" stroke="#F3A623" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="102" cy="129" r="4" fill="#fff"/>
+    <circle cx="142" cy="129" r="4" fill="#fff"/>
+  </g>
+</svg>

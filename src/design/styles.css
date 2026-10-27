@@ -1,31 +1,91 @@
+/* Couleurs Sunny Recipe */
+:root {
+    --vert: #263a32;
+    --terracotta: #d66b35;
+    --jaune: #f3a623;
+    --creme: #fff7e8;
+    --blanc-casse: #fffdf8;
+}
+
+/* Base de la page */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--blanc-casse);
+    color: var(--vert);
+    font-family: Arial, sans-serif;
+}
+
+/* Accueil */
 .accueil {
-    padding: 60px 20px;
-    background: #fff7e8;
-    text-align: center;
+    min-height: 450px;
+    padding: 60px 10%;
+    display: flex;
+    align-items: center;
+    background:
+        linear-gradient(rgba(38, 58, 50, 0.35), rgba(38, 58, 50, 0.35)),
+        url("../img/index-img.png") center / cover no-repeat;
 }
 
-.accueil h1 {
-    color: #263a32;
+.accueil-contenu {
+    width: min(700px, 100%);
+}
+
+.accueil-logo {
+    display: block;
+    width: min(330px, 75%);
+    height: auto;
+    margin-bottom: 12px;
+}
+
+.accueil-contenu p {
+    margin: 0;
+    color: var(--blanc-casse);
     font-family: Georgia, serif;
-    font-size: 42px;
+    font-size: clamp(1.3rem, 2.5vw, 2rem);
+    line-height: 1.3;
 }
 
-.accueil p {
-    color: #756d60;
-}
-
+/* Sections */
 .bestseller,
 .categorie {
-    padding: 40px 20px;
+    padding: 50px 8%;
     text-align: center;
 }
 
+.bestseller {
+    background: var(--blanc-casse);
+}
+
 .categorie {
-    background: #fff7e8;
+    background: linear-gradient(135deg, var(--creme), #ffe7b0);
 }
 
 .bestseller h2,
 .categorie h2 {
-    color: #263a32;
+    margin-top: 0;
+    color: var(--vert);
     font-family: Georgia, serif;
+    font-size: 2rem;
+}
+
+/* Adaptation pour téléphone */
+@media (max-width: 600px) {
+    .accueil {
+        min-height: 350px;
+        padding: 45px 8%;
+        background-position: center;
+    }
+
+    .accueil-logo {
+        width: min(270px, 85%);
+    }
+
+    .bestseller,
+    .categorie {
+        padding: 40px 6%;
+    }
 }

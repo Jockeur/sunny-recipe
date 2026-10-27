@@ -2,9 +2,9 @@
 
 <main>
     <section class="accueil">
-        <h1>Sunny Recipe</h1>
-        <p>Des idées gourmandes pour bien commencer la journée.</p>
-    </section>
+    <img class="accueil-logo" src="img/h1.svg" alt="Sunny Recipe">
+    <p>Des idées gourmandes pour bien commencer la journée.</p>
+</section>
 
     <section class="bestseller">
         <h2>Nos meilleures recettes</h2>
