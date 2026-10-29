@@ -22,8 +22,6 @@ header {
 
 main {
     background-color: var(--background);
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 div a {
@@ -65,7 +63,7 @@ body {
     align-items: center;
     background:
         linear-gradient(
-            to right,
+            to bottom,
             rgb(244, 193, 98),
             rgba(244, 193, 98, 0)
         ),

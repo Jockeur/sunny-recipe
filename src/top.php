@@ -7,9 +7,11 @@
     <title>Sunny Recipe</title>
     <link rel="stylesheet" href="design/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    
 </head>
 
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <header>
         <nav class="container text-center">
             <div class="row">
