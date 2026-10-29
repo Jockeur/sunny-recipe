@@ -6,20 +6,20 @@
         <h2>Des idées gourmandes pour bien commencer la journée.</h2>
     </section>
 
-    <section class="row bestseller container-fluid d-flex justify-content-center">
+    <section class="bestseller">
         <h2>Nos meilleures recettes</h2>
         <p>Pancakes, tartines et granola maison.</p>
         <div class="container-fluid d-flex justify-content-center">
             <div id="bestSellerCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/avocado.webp" class="d-block mx-auto social-img" alt="tartine d'avocat">
+                        <a href="top.php"><img src="img/avocado.webp" class="d-block mx-auto social-img" alt="tartine d'avocat"></a>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/index-img.png" class="d-block mx-auto social-img" alt="GitHub">
+                        <a href="top.php"><img src="img/moussa.webp" class="d-block mx-auto social-img" alt="moussa"></a>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/youtube.svg" class="d-block mx-auto social-img" alt="YouTube">
+                        <a href="top.php"><img src="img/cake.jpg" class="d-block mx-auto social-img" alt="cake"></a>
                     </div>
                 </div>
                 <button class="carousel-control-prev" data-bs-target="#bestSellerCarousel" data-bs-slide="prev">
