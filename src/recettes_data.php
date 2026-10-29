@@ -124,7 +124,7 @@ $recettes = [
             "Ajouter le jus des 2 citrons.",
             "Verser dans une carafe remplie de glaçons et compléter avec l'eau pétillante.",
             "Ajouter le zeste de citron, quelques fraises entières et la menthe si on le souhaite.",
-            "Mélanger bien et sers très frais."
+            "Bien mélanger et servir très frais."
         ]
     ],
 ];

@@ -9,7 +9,7 @@ include_once 'top.php';
     <?php foreach ($recettes as $recette_id => $recette) { ?>
 
         <a href='recette.php?recette=<?= urlencode((string) $recette_id) ?>'
-           class='card border-secondary rounded-4
+           class='recette-card card border-secondary rounded-4
                   text-decoration-none d-flex flex-row mx-auto mb-4'
            style='max-width: 1100px; overflow: hidden;'>
 
