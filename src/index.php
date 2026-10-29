@@ -34,5 +34,9 @@
     <h2>Nos catégories</h2>
     <p>Sucré · Salé · Rapide · Boissons</p>
 </section>
+<section class="categorie">
+    <h2>Nos catégories</h2>
+    <p>Sucré · Salé · Rapide · Boissons</p>
+</section>
 
 <?php include("bottom.php"); ?>
