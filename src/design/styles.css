@@ -28,6 +28,7 @@ main {
 div a {
     color: #000000;
     text-decoration: none;
+    font-family: ;
 }
 
 .top-nav-link {
@@ -53,7 +54,6 @@ body {
     margin: 0;
     background: var(--blanc-casse);
     color: var(--vert);
-    font-family: Arial, sans-serif;
 }
 
 /* Accueil */
@@ -94,18 +94,29 @@ body {
 }
 
 .bestseller {
-    background: var(--blanc-casse);
+    background: var(--);
+    
 }
 
 .categorie {
     background: linear-gradient(135deg, var(--creme), #ffe7b0);
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
 .bestseller h2,
 .categorie h2 {
     margin-top: 0;
     color: var(--vert);
-    font-family: Georgia, serif;
+    font-size: 2rem;
+}
+.bestseller h1,
+.categorie h1 {
+    margin-top: 0;
+    color: var(--vert);
     font-size: 2rem;
 }
 
