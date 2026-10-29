@@ -112,20 +112,7 @@ body {
     font-size: 2rem;
 }
 
-/* Adaptation pour téléphone */
-@media (max-width: 600px) {
-    .accueil {
-        min-height: 350px;
-        padding: 45px 8%;
-        background-position: center;
-    }
-
-    .accueil-logo {
-        width: min(270px, 85%);
-    }
-
-    .bestseller,
-    .categorie {
-        padding: 40px 6%;
-    }
+.bestseller .carousel-inner img {
+    width: 800px;
+    height: 450px;
 }
