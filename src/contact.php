@@ -1,5 +1,12 @@
 <?php include_once "top.php" ?>
 
+<style>
+    main{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+</style>
+
 <div class="container-fluid">
     <h1 style="margin-bottom: 30px;">Qui sommes-nous ?</h1>
     <p>Nous sommes un groupe d'étudiants à l'ESGI. Ce site a été réalisé dans le cadre d'un examen de fin de trimestre</p>
