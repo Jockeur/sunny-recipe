@@ -1,50 +1,39 @@
+/* =========================================================
+   Variables
+   ========================================================= */
 :root {
-    /* Couleurs principales de votre palette */
-    --title: #263a32;
-    --texte: #263a32;
-    --secondaire: #756d60;
-    --accent: #d66b35;
-    --details: #f3a623;
-    --fade: #ffd66b;
-    --background: #f4e1b0;
-    --hot-background: #f4c162;
-    --vert: #263a32;
-    --terracotta: #d66b35;
-    --jaune: #f3a623;
+    /* Couleurs */
+    --vert: #263a32;          /* titres et texte */
+    --gris-brun: #756d60;     /* texte secondaire */
+    --terracotta: #d66b35;    /* accent */
+    --jaune: #f3a623;         /* détails */
+    --jaune-clair: #ffd66b;
+    --jaune-nav: #f5af00;     /* bordure des liens du menu */
+    --sable: #f4e1b0;         /* fond du contenu */
+    --orange-doux: #f4c162;   /* fond header / footer */
     --creme: #fff7e8;
+    --peche: #ffe7b0;
     --blanc-casse: #fffdf8;
+    --noir: #000000;
+
+    /* Polices : change-les ici pour tout le site */
+    --font-titre: 'Courier New', Courier, monospace;
+    --font-texte: Pacifico, serif;
 }
 
-footer,
-header {
-    background-color: var(--hot-background);
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Pacifico', cursive;
 }
 
-main {
-    background-color: var(--background);
+body, p, a {
+    font-family: 'Pacifico', cursive;
 }
 
-div a {
-    color: #000000;
-    text-decoration: none;
-    font-family: ;
-}
-
-.top-nav-link {
-    border: 1px solid #f5af00;
-    border-radius: 4px;
-    color: #263a32;
-    font-family: Georgia, serif;
-    padding: 6px 10px;
-    text-decoration: none;
-    transition: border-color 0.2s ease;
-}
-
-.top-nav-link:hover {
-    border-color: #263a32;
-}
-
-/* Base de la page */
+/* =========================================================
+   Base
+   ========================================================= */
 * {
     box-sizing: border-box;
 }
@@ -55,18 +44,48 @@ body {
     color: var(--vert);
 }
 
-/* Accueil */
+div a {
+    color: var(--noir);
+    text-decoration: none;
+}
+
+/* =========================================================
+   Header, main, footer
+   ========================================================= */
+header,
+footer {
+    background-color: var(--orange-doux);
+}
+
+main {
+    background-color: var(--sable);
+}
+
+/* Liens du menu */
+.top-nav-link {
+    padding: 6px 10px;
+    border: 1px solid var(--jaune-nav);
+    border-radius: 4px;
+    color: var(--vert);
+    font-family: var(--font-texte);
+    text-decoration: none;
+    transition: border-color 0.2s ease;
+}
+
+.top-nav-link:hover {
+    border-color: var(--vert);
+}
+
+/* =========================================================
+   Accueil
+   ========================================================= */
 .accueil {
-    min-height: 450px;
-    padding: 60px 10%;
     display: flex;
     align-items: center;
+    min-height: 450px;
+    padding: 60px 10%;
     background:
-        linear-gradient(
-            to bottom,
-            rgb(244, 193, 98),
-            rgba(244, 193, 98, 0)
-        ),
+        linear-gradient(to bottom, var(--orange-doux), rgba(244, 193, 98, 0)),
         url("../img/index-img.png") center / cover no-repeat;
 }
 
@@ -84,59 +103,30 @@ body {
 .accueil-contenu p {
     margin: 0;
     color: var(--blanc-casse);
-    font-family: Georgia, serif;
+    font-family: var(--font-texte);
     font-size: clamp(1.3rem, 2.5vw, 2rem);
     line-height: 1.3;
 }
 
-/* Sections */
+/* =========================================================
+   Sections (best-seller, catégories)
+   ========================================================= */
 .bestseller,
 .categorie {
     padding: 50px 8%;
     text-align: center;
 }
 
-.bestseller {
-    background: var(--);
-    
-}
-
 .categorie {
-    background: linear-gradient(135deg, var(--creme), #ffe7b0);
+    background: linear-gradient(135deg, var(--creme), var(--peche));
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Courier New', Courier, monospace;
-
-}
-
+.bestseller h1,
 .bestseller h2,
+.categorie h1,
 .categorie h2 {
     margin-top: 0;
     color: var(--vert);
     font-size: 2rem;
 }
-.bestseller h1,
-.categorie h1 {
-    margin-top: 0;
-    color: var(--vert);
-    font-size: 2rem;
-}
 
-/* Adaptation pour téléphone */
-@media (max-width: 600px) {
-    .accueil {
-        min-height: 350px;
-        padding: 45px 8%;
-        background-position: center;
-    }
-
-    .accueil-logo {
-        width: min(270px, 85%);
-    }
-
-    .bestseller,
-    .categorie {
-        padding: 40px 6%;
-    }
-}
