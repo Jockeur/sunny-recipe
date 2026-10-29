@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sunny Recipe</title>
-    <link rel="stylesheet" href="design/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="design/styles.css">
     
 </head>
 
@@ -22,7 +22,6 @@
                     <a class="top-nav-link" href="recipies.php">Recettes</a>
                     <a class="top-nav-link" href="about.php">À propos</a>
                 </div>
-            </div>
             </div>
         </nav>
     </header>
