@@ -1,14 +1,32 @@
 <?php include("top.php"); ?>
 
-
 <section class="accueil">
     <img class="accueil-logo" src="img/h1.svg" alt="Sunny Recipe">
-    <p>Des idées gourmandes pour bien commencer la journée.</p>
+    <h2>Des idées gourmandes pour bien commencer la journée.</h2>
 </section>
 
-<section class="bestseller">
+<section class="bestseller container-fluid text-center">
     <h2>Nos meilleures recettes</h2>
     <p>Pancakes, tartines et granola maison.</p>
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/avocado.webp" class="img-thumbnail d-block w-100" alt="Tartine à l'avocat">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5></h5>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Précédent</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Suivant</span>
+        </button>
+    </div>
 </section>
 
 <section class="categorie py-5">

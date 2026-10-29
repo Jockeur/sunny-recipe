@@ -1,10 +1,46 @@
-/* Couleurs Sunny Recipe */
 :root {
+    /* Couleurs principales de votre palette */
+    --title: #263a32;
+    --texte: #263a32;
+    --secondaire: #756d60;
+    --accent: #d66b35;
+    --details: #f3a623;
+    --fade: #ffd66b;
+    --background: #f4e1b0;
+    --hot-background: #f4c162;
     --vert: #263a32;
     --terracotta: #d66b35;
     --jaune: #f3a623;
     --creme: #fff7e8;
     --blanc-casse: #fffdf8;
+}
+
+footer,
+header {
+    background-color: var(--hot-background);
+}
+
+main {
+    background-color: var(--background);
+}
+
+div a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.top-nav-link {
+    border: 1px solid #f5af00;
+    border-radius: 4px;
+    color: #263a32;
+    font-family: Georgia, serif;
+    padding: 6px 10px;
+    text-decoration: none;
+    transition: border-color 0.2s ease;
+}
+
+.top-nav-link:hover {
+    border-color: #263a32;
 }
 
 /* Base de la page */
@@ -26,7 +62,11 @@ body {
     display: flex;
     align-items: center;
     background:
-        linear-gradient(rgba(38, 58, 50, 0.35), rgba(38, 58, 50, 0.35)),
+        linear-gradient(
+            to bottom,
+            rgb(244, 193, 98),
+            rgba(244, 193, 98, 0)
+        ),
         url("../img/index-img.png") center / cover no-repeat;
 }
 
@@ -36,7 +76,7 @@ body {
 
 .accueil-logo {
     display: block;
-    width: min(330px, 75%);
+    width: min(450px, 75%);
     height: auto;
     margin-bottom: 12px;
 }

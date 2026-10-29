@@ -1,20 +1,18 @@
         </main>
-        <footer>
-            <h3>SunnyRecipe</h3>
-            <div class="col">
-                <h4>Nos recettes</h4>
-                <p>
+        <footer class="container-fluid text-center">
+            <h3 style="margin-bottom: 20px;">SunnyRecipe</h3>
+            <div class="row">
+                <div class="col d-flex flex-column align-items-start">
+                    <h4>Nos recettes</h4>
                     <a href="recipes.php">Toutes nos recettes</a>
-                </p>
-            </div>
-            <div class="col">
-                <h4></h4>
-                <p>
-                    <a href="about.php">Notre équipe</a>
-                    <a href="contact.php">Nous contacter</a>
-                    <a href="policy.php">Droit d'image</a>
-                </p>
+                </div>
+                <div class="col d-flex flex-column align-items-start">
+                    <h4>À propos</h4>
+                    <p><a href="policy.php">Droit d'image</a></p>
+                    <p><a href="contact.php">Notre équipe</a></p>
+                </div>
             </div>
         </footer>
-    </body>
-</html>
+        </body>
+
+        </html>
