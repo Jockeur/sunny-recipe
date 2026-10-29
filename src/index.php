@@ -1,5 +1,4 @@
 <?php include("top.php"); ?>
-
 <main>
     <section class="accueil">
         <img class="accueil-logo" src="img/h1.svg" alt="Sunny Recipe">
@@ -30,10 +29,6 @@
         </div>
     </section>
 
-<section class="categorie">
-    <h2>Nos catégories</h2>
-    <p>Sucré · Salé · Rapide · Boissons</p>
-</section>
 <section class="categorie">
     <h2>Nos catégories</h2>
     <p>Sucré · Salé · Rapide · Boissons</p>

@@ -19,6 +19,9 @@
     /* Polices : change-les ici pour tout le site */
     --font-titre: 'Courier New', Courier, monospace;
     --font-texte: Pacifico, serif;
+
+    /* écart */
+    --default-padding: 30px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
@@ -130,3 +133,6 @@ main {
     font-size: 2rem;
 }
 
+.card {
+    background-color: var(--orange-doux);
+}
