@@ -30,84 +30,82 @@
             </div>
         </div>
     </section>
-</section>
+    </section>
 
-<section class="categorie py-5">
-    <div class="container">
-        <h2 class="text-center mb-2">Nos catégories</h2>
-        <p class="text-center mb-4">Choisissez votre envie du matin</p>
+    <section class="categorie py-5">
+        <div class="container">
+            <h2 class="text-center mb-2">Nos catégories</h2>
+            <p class="text-center mb-4">Choisissez votre envie du matin</p>
 
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
 
-            <a href="categorie.php?categorie=sucre">
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="img/sucre.png"
-                            class="card-img-top categorie-image"
-                            alt="Pancakes et recettes sucrées">
+                    <a href="categorie.php?categorie=sucre">
+                        <div class="card h-100">
+                            <img src="img/sucre.png"
+                                class="card-img-top categorie-image"
+                                alt="Pancakes et recettes sucrées">
 
-                        <div class="card-body">
-                            <h3 class="card-title h5">Sucré</h3>
-                            <p class="card-text">
-                                Pancakes, granola et autres douceurs pour le petit-déjeuner.
-                            </p>
+                            <div class="card-body">
+                                <h3 class="card-title h5">Sucré</h3>
+                                <p class="card-text">
+                                    Pancakes, granola et autres douceurs pour le petit-déjeuner.
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-            </a>
 
-
-            <a href="categorie.php?categorie=sale">
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="img/sale.png"
-                            class="card-img-top categorie-image"
-                            alt="Tartines et recettes salées">
-
-                        <div class="card-body">
-                            <h3 class="card-title h5">Salé</h3>
-                            <p class="card-text">
-                                Des tartines, des œufs et des idées salées pour bien commencer la journée.
-                            </p>
+                    <a href="categorie.php?categorie=sale">
+                        <div class="card h-100">
+                            <img src="img/sale.png"
+                                class="card-img-top categorie-image"
+                                alt="Tartines et recettes salées">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Salé</h3>
+                                <p class="card-text">
+                                    Des tartines, des oeufs, et des idées salées pour bien commencer la journée.
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-            </a>
 
-            <div class="col">
-                <div class="card h-100">
+                <div class="col">
                     <a href="categorie.php?categorie=rapide">
-                        <img src="img/rapide.png"
-                            class="card-img-top categorie-image"
-                            alt="Petit-déjeuner rapide">
+                        <div class="card h-100">
+                            <img src="img/rapide.png"
+                                class="card-img-top categorie-image"
+                                alt="Petit-déjeuner rapide">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Rapide</h3>
+                                <p class="card-text">
+                                    Des recettes simples à préparer quand on est pressé.
+                                </p>
+                            </div>
+                        </div>
                     </a>
-                    <div class="card-body">
-                        <h3 class="card-title h5">Rapide</h3>
-                        <p class="card-text">
-                            Des recettes simples à préparer quand on est pressé.
-                        </p>
-                    </div>
                 </div>
-            </div>
 
-            <div class="col">
-                <div class="card h-100">
-                    <a href="categorie.php?categorie=boissons">
-                        <img src="img/boisson.png"
-                            class="card-img-top categorie-image"
-                            alt="Boissons du petit-déjeuner">
+                <div class="col">
+                    <a href="categorie.php?categorie=boisson">
+                        <div class="card h-100">
+                            <img src="img/boisson.png"
+                                class="card-img-top categorie-image"
+                                alt="Boissons du petit-déjeuner">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Boissons</h3>
+                                <p class="card-text">
+                                    Smoothies, jus et boissons chaudes pour accompagner le repas.
+                                </p>
+                            </div>
+                        </div>
                     </a>
-                    <div class="card-body">
-                        <h3 class="card-title h5">Boissons</h3>
-                        <p class="card-text">
-                            Smoothies, jus et boissons chaudes pour accompagner le repas.
-                        </p>
-                    </div>
                 </div>
-            </div>
 
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<?php include("bottom.php"); ?>
+    <?php include("bottom.php"); ?>
