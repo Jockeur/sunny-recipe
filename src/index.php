@@ -1,5 +1,4 @@
 <?php include("top.php"); ?>
-
 <main>
     <section class="accueil">
         <img class="accueil-logo" src="img/h1.svg" alt="Sunny Recipe">
@@ -13,13 +12,13 @@
             <div id="bestSellerCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <a href="top.php"><img src="img/avocado.webp" class="d-block mx-auto social-img" alt="tartine d'avocat"></a>
+                        <a href="recette.php?recette=avocado"><img src="img/avocado.png" class="d-block mx-auto social-img" alt="tartine d'avocat"></a>
                     </div>
                     <div class="carousel-item">
-                        <a href="top.php"><img src="img/moussa.webp" class="d-block mx-auto social-img" alt="moussa"></a>
+                        <a href="recette.php?recette=mousse"><img src="img/mousse.png" class="d-block mx-auto social-img" alt="moussee au chocolat"></a>
                     </div>
                     <div class="carousel-item">
-                        <a href="top.php"><img src="img/cake.jpg" class="d-block mx-auto social-img" alt="cake"></a>
+                        <a href="recette.php?recette=cake"><img src="img/cake.png" class="d-block mx-auto social-img" alt="cake au jambon et au petit pois"></a>
                     </div>
                 </div>
                 <button class="carousel-control-prev" data-bs-target="#bestSellerCarousel" data-bs-slide="prev">
@@ -32,10 +31,9 @@
         </div>
     </section>
 
-    <section class="categorie">
-        <h2>Nos catégories</h2>
-        <p>Sucré · Salé · Rapide · Boissons</p>
-    </section>
-</main>
+<section class="categorie">
+    <h2>Nos catégories</h2>
+    <p>Sucré · Salé · Rapide · Boissons</p>
+</section>
 
 <?php include("bottom.php"); ?>

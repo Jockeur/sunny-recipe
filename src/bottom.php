@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col d-flex flex-column align-items-start">
                     <h4>Nos recettes</h4>
-                    <a href="recipes.php">Toutes nos recettes</a>
+                    <a href="recettes.php">Toutes nos recettes</a>
                 </div>
                 <div class="col d-flex flex-column align-items-start">
                     <h4>À propos</h4>
