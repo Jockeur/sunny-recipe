@@ -4,7 +4,7 @@ include_once 'recettes_data.php';
 include_once 'top.php';
 ?>
 
-<div class='container-fluid py-4'>
+<div class='recettes container-fluid py-4'>
 
     <?php foreach ($recettes as $recette_id => $recette) { ?>
 

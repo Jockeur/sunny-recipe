@@ -141,6 +141,10 @@ footer {
     height: 450px;
 }
 
+.recettes {
+    background-color: var(--creme);
+}
+
 .card {
-    background-color: var(--orange-doux);
+    background-color: var(--sable);
 }

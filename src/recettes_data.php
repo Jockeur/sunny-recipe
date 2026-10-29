@@ -4,7 +4,7 @@ $recettes = [
     "avocado" => [
         "titre" => "Tartine d'avocat, saumon fumé et oeufs pochés",
         "categorie" => "sale",
-        "description" => "",
+        "description" => "Une tartine croustillante garnie d'avocat écrasé au citron, de saumon fumé et d'un œuf poché au jaune coulant. Un classique du brunch, rapide, frais et complet.",
         "prep_time" => 15,
         "ingredients" => [
             "4 tranches de pain de campagne",
@@ -42,7 +42,7 @@ $recettes = [
     "mousse" => [
         "titre" => "Mousse au chocolat facile",
         "categorie" => "sucre",
-        "description" => "",
+        "description" => "Une mousse aérienne et fondante, préparée avec seulement quelques ingrédients : chocolat noir, œufs et une pincée de sucre. Le dessert gourmand qui termine le brunch en douceur.",
         "prep_time" => 130,
         "ingredients" => [
             "3 oeufs",
@@ -68,7 +68,7 @@ $recettes = [
     "cake" => [
         "titre" => "Cake au jambon et petits pois",
         "categorie" => "sale",
-        "description" => "",
+        "description" => "Un cake salé moelleux, généreusement garni de dés de jambon et de petits pois. Facile à préparer la veille, il se découpe en tranches et se partage à table, tiède ou froid.",
         "prep_time" => 50,
         "ingredients" => [
             "200g de farine",
@@ -102,7 +102,7 @@ $recettes = [
     "limonade" => [
         "titre" => "Limonade fraise-citron",
         "categorie" => "boisson",
-        "description" => "",
+        "description" => "Une boisson maison pétillante et rafraîchissante, qui marie la douceur des fraises à l'acidité du citron. Joliment rosée, elle apporte de la couleur et de la fraîcheur à votre brunch.",
         "prep_time" => 10,
         "ingredients" => [
             "200g de fraises",
