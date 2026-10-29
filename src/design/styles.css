@@ -130,6 +130,7 @@ body {
     }
 }
 
+/* Images des cartes catégories : même hauteur, recadrées */
 .categorie-image {
     width: 100%;
     height: 180px;
