@@ -64,6 +64,10 @@ main {
     background-color: var(--sable);
 }
 
+footer {
+    padding-top: var(--default-padding);
+}
+
 /* Liens du menu */
 .top-nav-link {
     padding: 6px 10px;

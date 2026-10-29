@@ -16,7 +16,7 @@ $recette = $recettes[$recette_id];
 <div class="container">
   <section class="row">
 
-    <div class="col-md-5">
+    <div class="col-md-5" style="padding-bottom: 15px;">
 
       <?php print("<img src='img/$recette_id.png' class='img-thumbnail d-block w-100' alt='illustration'>"); ?>
     </div>
@@ -25,9 +25,13 @@ $recette = $recettes[$recette_id];
 
       <?php 
       $titre = $recette["titre"];
-      print("<h1>$titre</h1>");?>
+      print("<h1 style='padding-bottom: 10px'>$titre</h1>");
       
-      <p>Temps de préparation et description</p>
+      $temps = $recette["prep_time"];
+      print ("<p><strong>Temps de préparation : $temps minutes </strong></p>");
+
+      $desc = $recette["description"];
+      print("<p>$desc</p>")?>
     </div>
   </section>
 

@@ -7,7 +7,7 @@
 
     <section class="bestseller">
         <h2>Nos meilleures recettes</h2>
-        <p>Pancakes, tartines et granola maison.</p>
+        <p>Tartines, mousse et cakes maison !</p>
         <div class="container-fluid d-flex justify-content-center">
             <div id="bestSellerCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
