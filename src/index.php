@@ -36,44 +36,47 @@
 
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
 
-            <div class="col">
-                <div class="card h-100">
-                    <a href="recettes.php?categorie=sucre">
-                        <img src="img/suc.png"
-                             class="card-img-top categorie-image"
-                             alt="Pancakes et recettes sucrées">
-                    </a>
-                    <div class="card-body">
-                        <h3 class="card-title h5">Sucré</h3>
-                        <p class="card-text">
-                            Pancakes, granola et autres douceurs pour le petit-déjeuner.
-                        </p>
+            <a href="categorie.php?categorie=sucre">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/sucre.png"
+                            class="card-img-top categorie-image"
+                            alt="Pancakes et recettes sucrées">
+
+                        <div class="card-body">
+                            <h3 class="card-title h5">Sucré</h3>
+                            <p class="card-text">
+                                Pancakes, granola et autres douceurs pour le petit-déjeuner.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="col">
-                <div class="card h-100">
-                    <a href="recettes.php?categorie=sale">
+
+            <a href="categorie.php?categorie=sale">
+                <div class="col">
+                    <div class="card h-100">
                         <img src="img/sale.png"
-                             class="card-img-top categorie-image"
-                             alt="Tartines et recettes salées">
-                    </a>
-                    <div class="card-body">
-                        <h3 class="card-title h5">Salé</h3>
-                        <p class="card-text">
-                            Des tartines, des œufs et des idées salées pour bien commencer la journée.
-                        </p>
+                            class="card-img-top categorie-image"
+                            alt="Tartines et recettes salées">
+
+                        <div class="card-body">
+                            <h3 class="card-title h5">Salé</h3>
+                            <p class="card-text">
+                                Des tartines, des œufs et des idées salées pour bien commencer la journée.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
 
             <div class="col">
                 <div class="card h-100">
-                    <a href="recettes.php?categorie=rapide">
+                    <a href="categorie.php?categorie=rapide">
                         <img src="img/rapide.png"
-                             class="card-img-top categorie-image"
-                             alt="Petit-déjeuner rapide">
+                            class="card-img-top categorie-image"
+                            alt="Petit-déjeuner rapide">
                     </a>
                     <div class="card-body">
                         <h3 class="card-title h5">Rapide</h3>
@@ -86,10 +89,10 @@
 
             <div class="col">
                 <div class="card h-100">
-                    <a href="recettes.php?categorie=boissons">
+                    <a href="categorie.php?categorie=boissons">
                         <img src="img/boisson.png"
-                             class="card-img-top categorie-image"
-                             alt="Boissons du petit-déjeuner">
+                            class="card-img-top categorie-image"
+                            alt="Boissons du petit-déjeuner">
                     </a>
                     <div class="card-body">
                         <h3 class="card-title h5">Boissons</h3>
